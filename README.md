@@ -1,6 +1,6 @@
 # Linux Learning Journey
 
-Welcome to my daily log of learning Linux command-line fundamentals! This repository documents my progress as I explore Linux navigation, file management, permissions, and more, using resources like *The Linux Command Line* book and TryHackMe's "Linux Fundamentals" course. Each day includes learning objectives, tasks, practice exercises, and reflections.
+Welcome to my daily log of learning Linux command-line fundamentals! This repository documents my progress as I explore Linux navigation, file management, permissions, and more, using resources like *The Linux Command Line* book and TryHackMe's `Linux Fundamentals` course. Each day includes learning objectives, tasks, practice exercises, and reflections.
 
 ## Goals
 - Master basic Linux commands and file system navigation.
@@ -8,11 +8,18 @@ Welcome to my daily log of learning Linux command-line fundamentals! This reposi
 - Document progress to reinforce learning and share with the community.
 
 ## Progress
-- [Day 1: Basic Linux Navigation](Day1_Basic_Linux_Navigation.md) - ls, cd, pwd, mkdir, touch, rm, cp, mv
+- [Day 1: Basic Linux Navigation](Day1_Basic_Linux_Navigation.md) - Covers commands: ls, cd, pwd, mkdir, touch, rm, cp, mv
 
 ## Resources
 - *The Linux Command Line* by William Shotts
 - [TryHackMe: Linux Fundamentals](https://tryhackme.com)
-- Kali Linux Virtual Machine
+- [Kali Linux Virtual Machine](https://www.kali.org/get-kali/)
 
-*Last updated: July 7, 2025*
+## Next Steps
+- Explore file viewing commands (e.g., cat, less) on Day 2.
+- Add screenshots of terminal outputs to the resources folder.
+
+## Screenshots
+- [Day 1 Terminal Output](resources/screenshots/day1-output.png) (Coming soon)
+
+Last updated: July 7, 2025
