@@ -15,9 +15,6 @@ Welcome to my daily log of learning Linux command-line fundamentals! This reposi
 - [TryHackMe: Linux Fundamentals](https://tryhackme.com)
 - [Kali Linux Virtual Machine](https://www.kali.org/get-kali/)
 
-## Next Steps
-- Explore file viewing commands (e.g., cat, less) on Day 2.
-- Add screenshots of terminal outputs to the resources folder.
 
 ## Screenshots
 - [Day 1 Terminal Output](resources/screenshots/day1-output.png) (Coming soon)
