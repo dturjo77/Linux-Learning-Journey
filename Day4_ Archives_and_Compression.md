@@ -4,7 +4,7 @@
 The tar command is a tool used to create, extract, or manage archive files (like a single file containing many files or folders). Here's a simple breakdown:
 
 What it does: It bundles files or directories into one .tar file (without compression by default) or extracts them back.
-⚙️ Common uses:
+##⚙️ Common uses:
 -c: Create a new archive.
 -x: Extract files from an archive.
 -f: Specify the archive file name.
@@ -20,6 +20,7 @@ What it does: It bundles files or directories into one .tar file (without compre
 Magic Suitcase Analogy
 🎒🧸🪄➡️🎁Imagine you have a magic suitcase (tar) that packs or unpacks your toys (files).
 
+##⚙️ Common uses:
 -c (Create): "Pack all my toys!"
 -x (Extract): "Give me my toys back!"
 -f (File name): "Name the suitcase!"
@@ -65,8 +66,7 @@ gzip: Shrinks a single file to make it smaller. 📦➡️📉 Turns file.txt in
 
 gunzip: Opens the .gz file and gives you the original back. 📉➡️📦 Turns file.txt.gz back into file.txt
 
-⚙️ gzip – Magic Shrink Options:
-
+##⚙️ gzip – Magic Shrink Options:
 -c: “Shrink it, but keep the old one too.”
 -d: “Unshrink it!” (Same as gunzip)
 -f: “Do it, even if there’s already a file!”
@@ -76,8 +76,7 @@ gunzip: Opens the .gz file and gives you the original back. 📉➡️📦 Turns
 -1 to -9: “How much should I shrink it?” (1 = Fast, 9 = Super small)
 -v: “Show me what you’re doing!”
 
-⚙️ gunzip – Magic Unshrink Options:
-
+##⚙️ gunzip – Magic Unshrink Options:
 -c: “Unshrink and show me the file (don’t save it).”
 -f: “Unshrink even if the file already exists.”
 -l: “Tell me about this shrunken file.”
@@ -98,8 +97,7 @@ zip: Packs lots of files and folders into one .zip file and makes it smaller. �
 
 unzip: Opens that .zip file and gives you everything back. 🎒➡️🧸🪀📕
 
-⚙️ zip – Bag Packing Tricks:
-
+##⚙️ zip – Bag Packing Tricks:
 -r: “Pack everything in folders too!”
 -q: “Be quiet, no talking.”
 -0 to -9: “How tight should I pack it?”
@@ -109,8 +107,7 @@ unzip: Opens that .zip file and gives you everything back. 🎒➡️🧸🪀�
 -m: “Move the toys into the bag (and delete them).”
 -t: “Check if the bag is okay.”
 
-⚙️ unzip – Bag Opening Tricks:
-
+##⚙️ unzip – Bag Opening Tricks:
 -l: “Show what’s inside the bag, but don’t open it.”
 -q: “Be quiet while opening.”
 -n: “Don’t replace toys I already have.”
