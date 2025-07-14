@@ -62,6 +62,7 @@ tar -jxvf school.tar.bz2
 🎈 What do they do?
 
 gzip: Shrinks a single file to make it smaller. 📦➡️📉 Turns file.txt into file.txt.gz
+
 gunzip: Opens the .gz file and gives you the original back. 📉➡️📦 Turns file.txt.gz back into file.txt
 
 ⚙️ gzip – Magic Shrink Options:
@@ -87,12 +88,14 @@ gunzip: Opens the .gz file and gives you the original back. 📉➡️📦 Turns
 🧪 Examples:
 
 gzip file.txt → Shrinks file.txt to file.txt.gz
+
 gunzip file.txt.gz → Unshrinks it back to file.txt
 
 🎒 zip and unzip — Shrinking Many Things at Once!
 🎁 What do they do?
 
 zip: Packs lots of files and folders into one .zip file and makes it smaller. 🧸🪀📕➡️🎒 zip -r toys.zip toys/
+
 unzip: Opens that .zip file and gives you everything back. 🎒➡️🧸🪀📕
 
 ⚙️ zip – Bag Packing Tricks:
@@ -120,6 +123,7 @@ unzip: Opens that .zip file and gives you everything back. 🎒➡️🧸🪀�
 🧪 Examples:
 
 zip -r archive.zip folder/ → Packs a folder into archive.zip
+
 unzip archive.zip → Unpacks everything from archive.zip
 
 🧠 Super Simple Summary:
@@ -139,6 +143,7 @@ unzip       Unpacks the backpack and gives everything back 🎒 ➡️ 🧸🪀�
 It’s like a super strong magic box 🧊 that packs or unpacks files. It’s even stronger than zip or gzip — it makes things very small!
 
 📦 7z a archive.7z files
+
 👉 Packs files into a .7z box. 🧸📕➡️📦
 
 "a" means "add" → Add files to a new box.
@@ -153,13 +158,13 @@ Think: “You’re putting your toys in a super-strong box called archive.7z.”
 "x" means “extract everything.”
 
 Think: “You open your strong box and take your toys back out!”
+
 🧠 One-Line Summary:
 
-|      Command               |     What It Does              |Like…                            
------------------------------------------------------------------------------------------------
-| 7z a archive.7z files     | Packs files into a .7z box    | Put toys into a super-strong box
-|                           |                               |
-| 7z x archive.7z           | Unpacks the .7z box           | Take the toys out
+| Command               | What It Does                                   |
+| --------------------- | ------------------------------------------- |
+| 7z a archive.7z files | Packs files into a .7z box                  |
+| 7z x archive.7z       | Unpacks the .7z box                         |
 
 
 
