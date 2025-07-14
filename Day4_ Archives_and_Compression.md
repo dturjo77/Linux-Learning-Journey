@@ -165,5 +165,165 @@ Think: “You open your strong box and take your toys back out!”
 
 
 
+---
 
+## 🎁 1. `tar -cf file.tar files`
+
+**Creates a basic `.tar` archive.**
+
+```bash
+tar -cf backup.tar file1.txt file2.txt
+```
+
+🎒 Packs multiple files into one `.tar` without compression.
+
+---
+
+## 📦 2. `tar -xf file.tar`
+
+**Extracts a `.tar` archive.**
+
+```bash
+tar -xf backup.tar
+```
+
+📤 Unpacks all files from the `.tar` archive.
+
+---
+
+## 🌀 3. `tar -zcvf archive.tar.gz dirname/`
+
+**Creates a GZIP-compressed `.tar.gz` archive.**
+
+```bash
+tar -zcvf project.tar.gz my_project/
+```
+
+🗜️ Compresses a folder into a `.tar.gz` file.
+
+---
+
+## 💥 4. `tar -zxvf archive.tar.gz`
+
+**Extracts a `.tar.gz` archive.**
+
+```bash
+tar -zxvf project.tar.gz
+```
+
+📂 Unpacks the compressed archive and shows progress.
+
+---
+
+## 🧵 5. `tar -jcvf archive.tar.bz2 dirname/`
+
+**Creates a BZIP2-compressed `.tar.bz2` archive (better compression than gzip).**
+
+```bash
+tar -jcvf code.tar.bz2 source_code/
+```
+
+🔒 Makes the file smaller using BZIP2.
+
+---
+
+## 🎈 6. `tar -jxvf archive.tar.bz2`
+
+**Extracts a `.tar.bz2` archive.**
+
+```bash
+tar -jxvf code.tar.bz2
+```
+
+📤 Same as above but for `.bz2` files.
+
+---
+
+## 🗜️ 7. `gzip file`
+
+**Compresses a single file into `.gz`.**
+
+```bash
+gzip notes.txt
+```
+
+🧳 Output: `notes.txt.gz`
+
+---
+
+## 🔓 8. `gzip -d file.gz`
+
+**Decompresses a `.gz` file.**
+
+```bash
+gzip -d notes.txt.gz
+```
+
+📂 Now it becomes `notes.txt` again.
+
+---
+
+## 📁 9. `zip -r file.zip files`
+
+**Creates a `.zip` archive of files or folders.**
+
+```bash
+zip -r archive.zip folder1/
+```
+
+👜 Useful for sharing multiple files.
+
+---
+
+## 📂 10. `unzip file.zip`
+
+**Extracts a `.zip` archive.**
+
+```bash
+unzip archive.zip
+```
+
+🗂️ Puts everything back where it belongs.
+
+---
+
+## 🔐 11. `7z a archive.7z files`
+
+**Creates a `.7z` archive using 7-Zip.**
+
+```bash
+7z a backup.7z folder/
+```
+
+📦 Super compression with `.7z`.
+
+---
+
+## 🔓 12. `7z x archive.7z`
+
+**Extracts a `.7z` archive.**
+
+```bash
+7z x backup.7z
+```
+
+🎯 Extracts everything with high accuracy.
+
+---
+
+## 🧠 Summary Table
+
+| Command | What it Does | Format |
+|--------|------------------------------|--------|
+| `tar -cf` | Create .tar archive | `.tar` |
+| `tar -xf` | Extract .tar archive | `.tar` |
+| `tar -zcvf` | Create GZIP archive | `.tar.gz` |
+| `tar -zxvf` | Extract GZIP archive | `.tar.gz` |
+| `tar -jcvf` | Create BZIP2 archive | `.tar.bz2` |
+| `tar -jxvf` | Extract BZIP2 archive | `.tar.bz2` |
+| `gzip` / `gzip -d` | Compress/Decompress single file | `.gz` |
+| `zip -r` / `unzip` | Create/Extract ZIP archive | `.zip` |
+| `7z a` / `7z x` | Create/Extract 7-Zip archive | `.7z` |
+
+---
 
