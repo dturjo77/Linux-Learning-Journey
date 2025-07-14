@@ -28,18 +28,25 @@ This means: “Hey computer, look inside file.txt and show me the lines that hav
 🚿 Search from another command:  ps aux | grep firefox   ➜ This says: “Show me the programs running, but only show the ones with ‘firefox’ in them.”
 
 
-###🗣️ `echo` — Like Talking to the Computer
+## 🗣️ `echo` — Like Talking to the Computer
 
 Imagine you want your computer to say something on the screen.
 
 ✨ `echo` does that!  
 It just **prints** whatever you tell it.
 
+```bash
 echo Hello!
-👶 Computer says:  
-Hello!
+```
 
-📦 Some `echo` Tricks:
+👶 Computer says:  
+```
+Hello!
+```
+
+---
+
+### 📦 Some `echo` Tricks:
 
 | Option | What it Does | Like... |
 |--------|---------------|---------|
@@ -47,12 +54,24 @@ Hello!
 | `-e`   | Understand special things like `\n` (new line), `\t` (tab) | Magic codes for new lines or spaces 🎩 |
 | `-E`   | Turn off that magic (default) | Just show it as normal text 🙃 |
 
-💡 Example:
+---
 
+### 💡 Example:
+
+```bash
 echo -e "Hello\nWorld"
+```
 
+🖥️ Output:
 
-### ✂️ `sed` — Like a Magic Text Editor Robot
+```
+Hello
+World
+```
+
+---
+
+## ✂️ `sed` — Like a Magic Text Editor Robot
 
 Now imagine you have a notebook full of words, and you want to:
 
@@ -64,18 +83,28 @@ Now imagine you have a notebook full of words, and you want to:
 👉 `sed` does all that to **text files or lines**.  
 It’s like a **robot editor** that finds and fixes stuff! 🤖
 
-🪄 Most Common Trick: Replace Words
+---
 
+### 🪄 Most Common Trick: Replace Words
+
+```bash
 sed 's/cat/dog/' file.txt
+```
+
 Means:  
 > “Hey, in each line of `file.txt`, find the **first** word ‘cat’ and change it to ‘dog’.”
 
 To change **all cats** in the line:
+
+```bash
 sed 's/cat/dog/g'
+```
 
 `g` = **global** = everywhere in the line 🌍
 
-🧹 More `sed` Superpowers:
+---
+
+### 🧹 More `sed` Superpowers:
 
 | Command  | What it Does               | Like...                        |
 |----------|----------------------------|--------------------------------|
@@ -85,7 +114,9 @@ sed 's/cat/dog/g'
 | `a\text` | Add text after a line      | Add after 📌                   |
 | `c\text` | Change the whole line      | Rewrite it completely 📝       |
 
-🛠️ `sed` Options:
+---
+
+### 🛠️ `sed` Options:
 
 | Option | What it Means                            | Like...               |
 |--------|-------------------------------------------|------------------------|
@@ -94,16 +125,33 @@ sed 's/cat/dog/g'
 | `-e`   | Do more than one command at once          | Multi-tasking 🤹       |
 | `-r`   | Use advanced search patterns (some systems) | Power mode 💥        |
 
-🧪 Examples
+---
+
+## 🧪 Examples
 
 🔈 **Just say something:**
+
+```bash
 echo "I love ice cream"
+```
+
+---
 
 🐈 **Turn all cats into dogs in a file:**
+
+```bash
 sed 's/cat/dog/g' animals.txt
+```
+
+---
 
 🧽 **Replace and save it:**
+
+```bash
 sed -i 's/cat/dog/g' animals.txt
+```
+
+---
 
 
 ## 🔍 `diff file1 file2`
