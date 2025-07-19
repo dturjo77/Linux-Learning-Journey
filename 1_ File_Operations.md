@@ -1,4 +1,4 @@
-# Day 1: Basic Linux Navigation
+# Basic Linux Navigation
 
 ## Overview
 Today, I started my Linux journey by learning fundamental navigation commands, focusing on understanding the file system and basic file operations in a Kali Linux VM. This is part of *The Linux Command Line* (Chapter 3) and TryHackMe's "Linux Fundamentals 1" course.
