@@ -18,7 +18,7 @@ This file contains essential Linux commands used to monitor, control, and manage
  🔹### Command: top
      Shows the real-time view of what your system is doing right now.
      htop (optional) Enhanced top with colors and interactivity
-
+ ---
 ## ❌ Killing Processes:
 
  🔹### Command: kill
@@ -40,7 +40,7 @@ This file contains essential Linux commands used to monitor, control, and manage
       | `killall` | Exact name   | ❌           | Kill all of one type       |
       | `pkill`   | Name/pattern | ❌           | Kill using name patterns   |
       | `xkill`   | Mouse click  | ✅           | Kill unresponsive GUI apps |
-
+ ---
  ## 🚦 Foreground, Background, and Job Control:
 
    🔹### Command: Ctrl + Z   Full Meaning: Suspends a running process (puts it in the background as "stopped").
@@ -61,7 +61,7 @@ This file contains essential Linux commands used to monitor, control, and manage
        | `bg`    | Resume a paused job in background       |
        | `fg`    | Resume a job in foreground              |
        | `fg %n` | Bring job number **n** to foreground    |
-
+ ---
    ## 🎯 Changing Process Priority:
 
     🔹### Command: renice   Full Meaning: Re-set the nice value
@@ -71,7 +71,7 @@ This file contains essential Linux commands used to monitor, control, and manage
     🔹### Command: nice -n value command
          Full Meaning: Start a new process with a given priority (nice value).
          nice -n [value] [command]       
-
+ ---
    ## 📁 Redirecting Output:
  
     🔹### &>filename: Redirects both stdout and stderr to a file.
@@ -83,13 +83,13 @@ This file contains essential Linux commands used to monitor, control, and manage
        | `1>file` | Standard output only  | `file`  |
        | `2>file` | Error output only     | `file`  |
        | `&>file` | Both output and error | `file`  |
-
+ ---
    ## 🛠️ Tracing & Debugging:
 
      🔹### Command: strace -p <pid>  Purpose:Traces system calls made by a running process.
 
      🔹### Command: ltrace -p <pid>  Purpose:Traces library function calls made by a running process.
-
+ ---
 
 
 
