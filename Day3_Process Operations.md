@@ -41,7 +41,7 @@ This file contains essential Linux commands used to monitor, control, and manage
       | `pkill`   | Name/pattern | ❌           | Kill using name patterns   |
       | `xkill`   | Mouse click  | ✅           | Kill unresponsive GUI apps |
 
-   ##🚦 Foreground, Background, and Job Control:
+ ## 🚦 Foreground, Background, and Job Control:
 
    🔹### Command: Ctrl + Z   Full Meaning: Suspends a running process (puts it in the background as "stopped").
 
