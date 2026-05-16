@@ -120,6 +120,7 @@ fdisk, gdisk
 ```
 
 ### 13. Mounting & Filesystem Operations (already combined above)
+```
 mount /dev/sdX1 /mnt
 umount /mnt
 findmnt
@@ -135,6 +136,7 @@ parted /dev/sdX                    (already in file ops, but here for partitioni
 mount -o remount,rw /
 mount -t ntfs /dev/sdX1 /mnt
 blkid /dev/sdX1                    (UUID)
+```
 
 ### 14. Archives and Compression
 ```
