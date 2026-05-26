@@ -36,6 +36,8 @@ mv olddir newdir
 find / -type d -name dirname
 tree
 rm -rf dir
+neno
+vim
 ```
 
 ---
